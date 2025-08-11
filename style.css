@@ -1,0 +1,71 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    font-family: Lato, sans-serif;
+    color: #1d0202;
+}
+
+.parallax1{
+    position: relative;
+    background-image: url("../img/img_parallax.jpg");
+    height: 100%;
+    opacity: 0.35;
+    background-attachment: fixed; /*fixa a imagem e permite que os outros elementos da pagina rolem*/
+    background-position: center; /*Que posiciona a imagem de forma centralizada mesmo que o navegador seja redimencionado*/
+    background-repeat: no-repeat; /*caso a tela seja maior que a imagem ,não permitirá que a imagem seja repetida pros lados*/
+    background-size: cover;/*redmenciona a imagem de forma que ocupe a area visivel da tela mantendo a proporção*/
+}
+
+.caption{
+    position: absolute;/*altera a posição do texto , absoluto: eu defino, relative: o site que define deixa como ta*/
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.caption span.border{
+    /*altera as caracteristicas do texto: cor do fundo,cor do texto, espaçamento e tamanho da fonte e espaçamento entre os caracteres*/
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.box1{
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.parallax2{
+     position: relative;
+    background-image: url("../img/img_parallax2.jpg");
+    height: 100%;
+    opacity: 0.65;
+    background-attachment: fixed; /*fixa a imagem e permite que os outros elementos da pagina rolem*/
+    background-position: center; /*Que posiciona a imagem de forma centralizada mesmo que o navegador seja redimencionado*/
+    background-repeat: no-repeat; /*caso a tela seja maior que a imagem ,não permitirá que a imagem seja repetida pros lados*/
+    background-size: cover;/*redmenciona a imagem de forma que ocupe a area visivel da tela mantendo a proporção*/
+}
+.box2{
+    background-color:rgb(170, 166, 166);
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.parallax3{
+     position: relative;
+    background-image: url("../img/img_parallax3.jpg");
+    height: 100%;
+    opacity: 0.85;
+    background-attachment: fixed; /*fixa a imagem e permite que os outros elementos da pagina rolem*/
+    background-position: center; /*Que posiciona a imagem de forma centralizada mesmo que o navegador seja redimencionado*/
+    background-repeat: no-repeat; /*caso a tela seja maior que a imagem ,não permitirá que a imagem seja repetida pros lados*/
+    background-size: cover;/*redmenciona a imagem de forma que ocupe a area visivel da tela mantendo a proporção*/
+}
+.box3{
+    background-color:rgb(236, 194, 143);
+    text-align: justify;
+    padding: 50px 80px;
+}
